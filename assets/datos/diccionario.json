@@ -1,0 +1,180 @@
+[
+  {
+    "id": "abogado",
+    "termino": "Abogado",
+    "definicion": "Profesional del derecho que, con título universitario y certificado de idoneidad, asesora a personas y las representa ante tribunales y autoridades.",
+    "ejemplo": "La empresa contrató a un abogado para revisar el contrato de arrendamiento.",
+    "relacionados": ["idoneidad", "poder", "secreto-profesional"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "idoneidad",
+    "termino": "Idoneidad",
+    "definicion": "Autorización que otorga la Corte Suprema de Justicia para ejercer la abogacía en Panamá. Sus requisitos están en la Ley 350 de 2022, reformada por la Ley 500 de 2025.",
+    "relacionados": ["abogado", "ejercicio-ilegal"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "ejercicio-ilegal",
+    "termino": "Ejercicio ilegal de la abogacía",
+    "definicion": "Realizar actos propios de abogado, como representar a otro en un proceso, sin tener idoneidad o estando suspendido o inhabilitado para ello.",
+    "relacionados": ["idoneidad", "abogado"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "poder",
+    "termino": "Poder",
+    "definicion": "Documento por el cual una persona (poderdante) autoriza a otra (apoderado) para actuar en su nombre, por ejemplo, para representarla en un proceso judicial.",
+    "ejemplo": "Para presentar la demanda, el abogado necesita el poder firmado por su cliente.",
+    "relacionados": ["abogado", "demanda"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "secreto-profesional",
+    "termino": "Secreto profesional",
+    "definicion": "Deber del abogado de no revelar lo que conoce por confianza de su cliente. Es una de las bases de la ética de la abogacía.",
+    "relacionados": ["abogado"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "demanda",
+    "termino": "Demanda",
+    "definicion": "Escrito con el que una persona inicia un proceso ante un juez y pide que se le reconozca un derecho o se condene a otra persona.",
+    "relacionados": ["contestacion", "proceso", "juez"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "contestacion",
+    "termino": "Contestación de la demanda",
+    "definicion": "Escrito con el que la persona demandada responde a la demanda: acepta o niega los hechos y presenta sus defensas.",
+    "relacionados": ["demanda", "proceso"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "proceso",
+    "termino": "Proceso",
+    "definicion": "Conjunto ordenado de actos ante un tribunal, desde la demanda o denuncia hasta la sentencia y su ejecución.",
+    "relacionados": ["demanda", "sentencia"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "juez",
+    "termino": "Juez",
+    "definicion": "Funcionario del Órgano Judicial que dirige el proceso y decide el conflicto aplicando la ley.",
+    "relacionados": ["sentencia", "competencia"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "competencia",
+    "termino": "Competencia",
+    "definicion": "Facultad que tiene un juez o tribunal para conocer de un asunto concreto, según la materia, el territorio o la cuantía.",
+    "relacionados": ["juez"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "sentencia",
+    "termino": "Sentencia",
+    "definicion": "Decisión con la que el juez resuelve el fondo del asunto al terminar el proceso.",
+    "relacionados": ["proceso", "apelacion", "cosa-juzgada"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "apelacion",
+    "termino": "Recurso de apelación",
+    "definicion": "Medio para pedir que un tribunal superior revise una resolución del juez de primera instancia y la confirme, modifique o revoque.",
+    "relacionados": ["sentencia", "casacion"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "casacion",
+    "termino": "Recurso de casación",
+    "definicion": "Recurso extraordinario ante la Corte Suprema de Justicia contra ciertas sentencias, por errores en la aplicación de la ley o en el procedimiento.",
+    "relacionados": ["apelacion", "jurisprudencia"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "cosa-juzgada",
+    "termino": "Cosa juzgada",
+    "definicion": "Efecto de una sentencia firme: lo decidido ya no puede discutirse de nuevo en otro proceso entre las mismas partes y por la misma causa.",
+    "relacionados": ["sentencia"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "amparo",
+    "termino": "Amparo de garantías constitucionales",
+    "definicion": "Acción para proteger a una persona contra una orden de una autoridad que viole sus derechos fundamentales reconocidos en la Constitución.",
+    "relacionados": ["habeas-corpus", "constitucion"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "habeas-corpus",
+    "termino": "Hábeas corpus",
+    "definicion": "Acción para proteger la libertad de una persona detenida o amenazada de detención de forma ilegal.",
+    "relacionados": ["amparo", "constitucion"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "constitucion",
+    "termino": "Constitución",
+    "definicion": "Norma suprema del Estado: organiza los poderes públicos y reconoce los derechos y garantías de las personas. Ninguna ley puede contradecirla.",
+    "relacionados": ["ley", "amparo"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "ley",
+    "termino": "Ley",
+    "definicion": "Norma aprobada por la Asamblea Nacional, sancionada por el Órgano Ejecutivo y publicada en la Gaceta Oficial.",
+    "relacionados": ["gaceta-oficial", "vigencia", "derogar"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "gaceta-oficial",
+    "termino": "Gaceta Oficial",
+    "definicion": "Publicación oficial del Estado panameño donde se promulgan las leyes y otras normas. Es la fuente de referencia del texto vigente.",
+    "relacionados": ["ley", "vigencia"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "vigencia",
+    "termino": "Vigencia",
+    "definicion": "Período durante el cual una norma es obligatoria: desde que entra a regir hasta que se deroga.",
+    "relacionados": ["derogar", "ley"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "derogar",
+    "termino": "Derogar",
+    "definicion": "Dejar sin efecto, total o parcialmente, una norma mediante otra norma posterior.",
+    "ejemplo": "La Ley 350 de 2022 derogó la Ley 9 de 1984 sobre el ejercicio de la abogacía.",
+    "relacionados": ["vigencia", "ley"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "jurisprudencia",
+    "termino": "Jurisprudencia",
+    "definicion": "Conjunto de decisiones de los tribunales, en especial de la Corte Suprema de Justicia, que sirven de guía para interpretar la ley.",
+    "relacionados": ["doctrina", "casacion"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "doctrina",
+    "termino": "Doctrina",
+    "definicion": "Opiniones y estudios de juristas sobre el derecho. Ayuda a interpretar las normas, pero no es obligatoria.",
+    "relacionados": ["jurisprudencia"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "prescripcion",
+    "termino": "Prescripción",
+    "definicion": "Pérdida o adquisición de un derecho por el paso del tiempo fijado en la ley. Por ejemplo, una acción que no se ejerce a tiempo puede prescribir.",
+    "relacionados": ["caducidad"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  },
+  {
+    "id": "caducidad",
+    "termino": "Caducidad",
+    "definicion": "Extinción de un derecho o de una facultad procesal por no ejercerla dentro del plazo fijado. A diferencia de la prescripción, normalmente no se interrumpe.",
+    "relacionados": ["prescripcion"],
+    "fuente": "Definición propia de la app (pendiente de revisión)"
+  }
+]
